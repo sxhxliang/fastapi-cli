@@ -44,9 +44,11 @@
 Manage FastAPI can be installed by running 
 
 ```python
-pip install fastapi-cli
+
+pip3 install git+https://github.com/sxhxliang/fastapi-cli
 # or
-python3 setup.py develop
+git clone https://github.com/sxhxliang/fastapi-cli
+cd fastapi-cli && python3 setup.py develop
 ```
 
 
