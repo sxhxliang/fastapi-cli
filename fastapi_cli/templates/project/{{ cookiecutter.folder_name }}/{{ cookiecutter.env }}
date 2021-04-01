@@ -1,0 +1,30 @@
+PROJECT_NAME={{ cookiecutter.name }}
+BACKEND_CORS_ORIGINS=["http://localhost:8000", "https://localhost:8000", "http://localhost", "https://localhost"]
+
+{% if cookiecutter.database == "Postgres" %}
+
+DB_CONNECTION=postgres://postgres:postgres@localhost/postgres
+
+{% elif cookiecutter.database == "Mysql" %}
+
+SECRET_KEY=secret
+DEBUG=True
+DB_CONNECTION=mysql://root:123456@localhost/mysql
+HOST=localhost
+PORT=3306
+USERNAME=root
+PASSWORD=123456
+DATABASE=mysql
+
+{% else %}
+
+SECRET_KEY=secret
+DEBUG=True
+DB_CONNECTION=mysql://root:123456@localhost/mysql
+HOST=localhost
+PORT=3306
+USERNAME=root
+PASSWORD=123456
+DATABASE=mysql
+
+{% endif %}

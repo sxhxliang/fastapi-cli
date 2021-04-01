@@ -1,0 +1,31 @@
+site_name: Manage FastAPI
+theme:
+  name: material
+  palette:
+    primary: 'green'
+    accent: 'orange'
+  font:
+    text: 'Ubuntu'
+repo_name: sxhxliang/Fastapi-Cli
+repo_url: https://github.com/sxhxliang/fastapi-cli
+
+nav:
+- Manage FastAPI: index.md
+- Manage Projects:
+  - Start new project: managing_projects/startproject.md
+- Manage Apps:
+  - Start new app: managing_apps/startapp.md
+- Release Notes: 'release-notes.md'
+
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - admonition
+  - codehilite
+  - extra
+  - tables
+  - smarty
+  - pymdownx.tabbed
