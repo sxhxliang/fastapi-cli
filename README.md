@@ -3,16 +3,16 @@
 </h3>
 <p align="center">
     <a href="https://github.com/sxhxliang/fastapi-cli" target="_blank">
-        <img src="https://img.shields.io/github/last-commit/ycd/manage-fastapi?style=for-the-badge" alt="Latest Commit">
+        <img src="https://img.shields.io/github/last-commit/sxhxliang/fastapi-cli?style=for-the-badge" alt="Latest Commit">
     </a>
-        <img src="https://img.shields.io/github/workflow/status/ycd/manage-fastapi/Test?style=for-the-badge">
-        <img src="https://img.shields.io/codecov/c/github/ycd/manage-fastapi?style=for-the-badge">
+        <img src="https://img.shields.io/github/workflow/status/sxhxliang/fastapi-cli/Test?style=for-the-badge">
+        <img src="https://img.shields.io/codecov/c/github/sxhxliang/fastapi-cli?style=for-the-badge">
     <br />
     <a href="https://pypi.org/project/manage-fastapi" target="_blank">
         <img src="https://img.shields.io/pypi/v/manage-fastapi?style=for-the-badge" alt="Package version">
     </a>
     <img src="https://img.shields.io/pypi/pyversions/manage-fastapi?style=for-the-badge">
-    <img src="https://img.shields.io/github/license/ycd/manage-fastapi?style=for-the-badge">
+    <img src="https://img.shields.io/github/license/sxhxliang/fastapi-cli?style=for-the-badge">
 </p>
 
 
@@ -23,8 +23,6 @@
 **Source Code**: View it on [Github](https://github.com/sxhxliang/fastapi-cli)
 
 ---
-
-<a href="https://asciinema.org/a/377829" target="_blank"><img src="https://asciinema.org/a/377829.svg" /></a>
 
 ##  Features 🚀
 
@@ -57,13 +55,13 @@ cd fastapi-cli && python3 setup.py develop
 Easiest way to start is using the defaults:
 
 ```bash
-fastapi-cli startproject [name]
+fastapi startproject [name]
 ```
 
 But there is an **interactive** mode!
 
 ```bash
-fastapi-cli startproject [name] --interactive
+fastapi startproject [name] --interactive
 ```
 
 
@@ -75,7 +73,7 @@ Manage FastAPI provides three different commands.
 You can list them with
 
 ```bash
-fastapi-cli --help
+fastapi --help
 ```
 
 <img src="docs/docs_assets/fastapi-help.png" width=600>
@@ -87,13 +85,13 @@ The idea is to have a highly customizable CLI, but at the same time a simple int
 The other commands are already available but the current implementation is too shallow. More details about `startapp` and `run` commands will be provided once they have more functionalities, at the moment you can run `startapp` by just:
 
 ```bash
-fastapi-cli startapp {name}
+fastapi startapp {name}
 ```
 
 On the other hand, the `run` command expects you to have a `startproject` structure:
 
 ```bash
-fastapi-cli run
+fastapi run
 ```
 
 ## License

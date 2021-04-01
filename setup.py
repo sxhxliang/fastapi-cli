@@ -21,7 +21,7 @@ install_requires = \
  'typer>=0.3.2,<0.4.0']
 
 entry_points = \
-{'console_scripts': ['fastapi-cli = fastapi_cli.main:app']}
+{'console_scripts': ['fastapi = fastapi_cli.main:app']}
 
 setup_kwargs = {
     'name': 'fastapi-cli',
