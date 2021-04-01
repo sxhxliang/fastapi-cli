@@ -85,7 +85,7 @@ The idea is to have a highly customizable CLI, but at the same time a simple int
 The other commands are already available but the current implementation is too shallow. More details about `startapp` and `run` commands will be provided once they have more functionalities, at the moment you can run `startapp` by just:
 
 ```bash
-fastapi startapp {name}
+fastapi-cli startapp {name}
 ```
 
 On the other hand, the `run` command expects you to have a `startproject` structure:
