@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "manage-fastapi"
+name = "fastapi-cli"
 version = "1.0.0"
 description = "Managing FastAPI projects made easy."
 authors = [
