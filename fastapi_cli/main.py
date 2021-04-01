@@ -68,8 +68,8 @@ def run(prod: bool = typer.Option(False)):
 
 def version_callback(value: bool):
     if value:
-        version = pkg_resources.get_distribution("manage-fastapi").version
-        typer.echo(f"manage-fastapi, version {version}")
+        version = pkg_resources.get_distribution("fastapi-cli").version
+        typer.echo(f"fastapi-cli, version {version}")
         raise typer.Exit()
 
 
