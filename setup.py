@@ -30,7 +30,7 @@ entry_points = \
 
 
 setup_kwargs = {
-    'name': 'fastapi-cli-service',
+    'name': 'fastapi-cli',
     'version': '1.0.1',
     'description': 'Managing FastAPI projects made easy.',
     'long_description': long_description,
